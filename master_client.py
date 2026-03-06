@@ -62,7 +62,7 @@ from pymodbus.client import ModbusTcpClient
 def run_wireless_client():
     # 1. Setup the Network Layer (Connecting over Wi-Fi)
     client = ModbusTcpClient(
-        host='192.168.170.120',
+        # host='',your IP address
         port=5020,
         framer="socket",
         timeout=3
